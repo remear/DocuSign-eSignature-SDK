@@ -5,8 +5,8 @@ gem 'rails', '3.0.4'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'soap4r'
-gem 'docusignsdk'
+gem 'bvandenbos-soap4r', :git => 'https://remear@github.com/remear/soap4r.git'
+gem 'docusign', :git => 'https://remear@github.com/remear/docusign.git'
 gem 'intercession', '=2.0.0'
 gem 'httpclient', '=2.1.6.1'
 gem 'sqlite3'
